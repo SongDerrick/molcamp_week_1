@@ -1,13 +1,26 @@
 package com.example.android_three_tab.ui.home
 
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+// import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
+// import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.android_three_tab.R
+//import androidx.recyclerview.widget.LinearLayoutManager
+//import androidx.recyclerview.widget.RecyclerView
+//import com.example.android_three_tab.R
 import com.example.android_three_tab.databinding.FragmentHomeBinding
+import android.content.Intent
+import android.widget.Toast
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.bumptech.glide.Glide
+
 
 class HomeFragment : Fragment() {
 
@@ -17,6 +30,9 @@ class HomeFragment : Fragment() {
     private lateinit var imageArrayList: ArrayList<Gallery>
 
     lateinit var imageId : Array<Int>
+
+    val recyclerViewPool = RecyclerView.RecycledViewPool()
+
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -33,10 +49,10 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+//        val textView: TextView = binding.textHome
+//        homeViewModel.text.observe(viewLifecycleOwner) {
+//            textView.text = it
+//        }
         return root
     }
 
@@ -112,4 +128,6 @@ class HomeFragment : Fragment() {
     }
 
 
+
 }
+
