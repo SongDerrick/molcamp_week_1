@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
+                R.id.navigation_home, R.id.navigation_phone, R.id.navigation_notifications
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -49,19 +49,3 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-
-//    private fun rollDice(){
-//        val randomInt = (1..6).random()
-//        val drawableResource = when (randomInt) {
-//            1 -> R.drawable.dice_1
-//            2 -> R.drawable.dice_2
-//            3 -> R.drawable.dice_3
-//            4 -> R.drawable.dice_4
-//            5 -> R.drawable.dice_5
-//            else -> R.drawable.dice_6
-//        }
-//        Toast.makeText(this, "button clicked",
-//            Toast.LENGTH_SHORT).show()
-//        diceImage.setImageResource(drawableResource)
-//    }
-//}

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_dashboard">
+    app:startDestination="@+id/navigation_phone">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -11,10 +11,10 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.android_three_tab.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_phone"
+        android:name="com.example.android_three_tab.ui.phone.PhoneFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_phone" />
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.android_three_tab.ui.notifications.NotificationsFragment"
