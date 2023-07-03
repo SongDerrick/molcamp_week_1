@@ -31,6 +31,8 @@ class HomeFragment : Fragment() {
 
     lateinit var imageId : Array<Int>
 
+    val recyclerViewPool = RecyclerView.RecycledViewPool()
+
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -61,7 +63,6 @@ class HomeFragment : Fragment() {
         recyclerView = view.findViewById(R.id.recycler_view)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
-
         adapter = MyAdapter(imageArrayList)
         recyclerView.adapter = adapter
         adapter.setOnItemClickListener(object : MyAdapter.onItemClickListener{
@@ -99,14 +100,14 @@ class HomeFragment : Fragment() {
             R.drawable.image_11,
             R.drawable.image_12,
             R.drawable.image_13,
-            R.drawable.image_14
-//            R.drawable.image_15,
-//            R.drawable.image_16,
-//            R.drawable.image_17,
-//            R.drawable.image_18,
-//            R.drawable.image_19,
-//            R.drawable.image_20,
-//            R.drawable.image_1
+            R.drawable.image_14,
+            R.drawable.image_15,
+            R.drawable.image_16,
+            R.drawable.image_17,
+            R.drawable.image_18,
+            R.drawable.image_19,
+            R.drawable.image_20,
+            R.drawable.image_1
 
 
         )

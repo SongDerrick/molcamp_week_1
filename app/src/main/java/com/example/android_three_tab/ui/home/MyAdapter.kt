@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.android_three_tab.R
 import com.google.android.material.imageview.ShapeableImageView
 
@@ -19,6 +20,7 @@ class MyAdapter(private val imageList : ArrayList<Gallery>) :
         fun onItemClick(position : Int)
 
     }
+
 
     fun setOnItemClickListener(listener: onItemClickListener){
         mListener = listener
@@ -34,15 +36,8 @@ class MyAdapter(private val imageList : ArrayList<Gallery>) :
 
     override fun onBindViewHolder(holder: MyAdapter.MyViewHolder, position: Int) {
         val currentItem = imageList[position]
-        // holder.titleImage.setImageResource(currentItem.titleImage)
-
-        holder.apply{
-            Glide.with(itemView)
-                .load(currentItem.titleImage)
-                .thumbnail(0.1f) // Adjust the thumbnail size as needed
-                .into(titleImage)
-            titleImage.setImageResource(currentItem.titleImage)
-        }
+        val context = holder.itemView.context
+        holder.titleImage.setImageResource(currentItem.titleImage)
 
 
     }
