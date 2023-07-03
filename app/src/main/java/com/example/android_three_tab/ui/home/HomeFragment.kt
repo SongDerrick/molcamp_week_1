@@ -33,6 +33,7 @@ class HomeFragment : Fragment() {
 
     val recyclerViewPool = RecyclerView.RecycledViewPool()
 
+
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -125,6 +126,7 @@ class HomeFragment : Fragment() {
 
         // recyclerView.adapter = MyAdapter(imageArrayList)
     }
+
 
 
 }
