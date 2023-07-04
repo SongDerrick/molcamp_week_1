@@ -20,13 +20,21 @@ Each tab have specific functions.
 
 Brief overview and screen shots of our project.
 
-| Loading Page                   | Contacts                   |
-| ---------------------------- | ---------------------------- |
-|<img src="images/Screenshot_1.jpg" alt="Sc1" width="270" height="570">|<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570">|
+| Loading Page                 |
+| ---------------------------- |
+|<img src="images/Screenshot_1.jpg" alt="Sc1" width="270" height="570">|
 
-| Gallery                 | Wise Sayings Generator                   |
-| ---------------------------- | ---------------------------- |
-|<img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570">|<img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570">|
+| Contacts                   |
+| ---------------------------- |
+|<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570">|
+
+| Gallery                 | 
+| ---------------------------- |
+|<img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570">|
+
+|Wise Sayings Generator                   |
+| ---------------------------- |
+|<img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570">|
 
 | Gif of Wise Sayings Generator                 |
 | ---------------------------- |
