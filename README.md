@@ -43,6 +43,9 @@ everytime the screen is clicked new wise sayings are generated from APIs from ht
 
 Nothing Special
 Clone and Build project in Android Studio.
+```
+npm install
+```
 
 ## Usage
 
