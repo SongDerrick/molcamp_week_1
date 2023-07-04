@@ -5,10 +5,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.android_three_tab.R
 import com.google.android.material.imageview.ShapeableImageView
+import com.squareup.picasso.Picasso
 
 
 class MyAdapter(private val imageList : ArrayList<Gallery>) :
@@ -37,7 +39,15 @@ class MyAdapter(private val imageList : ArrayList<Gallery>) :
     override fun onBindViewHolder(holder: MyAdapter.MyViewHolder, position: Int) {
         val currentItem = imageList[position]
         val context = holder.itemView.context
-        holder.titleImage.setImageResource(currentItem.titleImage)
+
+
+        // holder.titleImage.setImageResource(currentItem.titleImage)
+        Picasso.get()
+            .load(currentItem.titleImage)
+            .resize(800, 0)
+            .onlyScaleDown()
+            .into(holder.titleImage)
+
 
 
     }

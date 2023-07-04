@@ -23,7 +23,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:hint="이름"
+        android:text="이름"
         android:enabled="true"
         android:padding="16dp"
         />
@@ -36,7 +36,7 @@
         android:layout_marginRight="8dp"
         android:enabled="true"
         android:padding="16dp"
-        android:hint="전화번호"
+        android:text="전화번호"
         />
 
     <Button

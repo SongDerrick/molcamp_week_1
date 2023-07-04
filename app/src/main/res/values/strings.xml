@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">android_three_tab</string>
+    <string name="app_name">This is me...</string>
     <string name="title_home">Gallery</string>
     <string name="title_dashboard">Contacts</string>
-    <string name="title_notifications">Free</string>
+    <string name="title_notifications">Wise Saying</string>
     <string name="roll_label">Roll</string>
     <string name="bio">Hi, my name is Aleks.
 \n\nI love fish.

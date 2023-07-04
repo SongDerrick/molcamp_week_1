@@ -1,22 +1,13 @@
 package com.example.android_three_tab
 
-import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Bundle
-import android.view.View
-import android.widget.ProgressBar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.android_three_tab.databinding.ActivityMainBinding
-import com.example.android_three_tab.ui.home.Gallery
 
 class MainActivity : AppCompatActivity() {
 

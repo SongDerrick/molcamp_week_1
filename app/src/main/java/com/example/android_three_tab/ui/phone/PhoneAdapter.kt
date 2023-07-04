@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_three_tab.databinding.RowPhoneBinding
 import com.example.android_three_tab.ui.dashboard.PhoneData
-import com.example.android_three_tab.ui.home.MyAdapter
 
 class PhoneAdapter(private val itemList: ArrayList<PhoneData>, private var itemClickListener: OnItemClickListener) :
     RecyclerView.Adapter<PhoneAdapter.PhoneViewHolder>() {

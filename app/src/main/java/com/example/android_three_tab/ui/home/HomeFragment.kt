@@ -20,6 +20,7 @@ import android.content.Intent
 import android.widget.Toast
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.bumptech.glide.Glide
+import com.google.android.material.transition.MaterialContainerTransform
 
 
 class HomeFragment : Fragment() {
@@ -61,6 +62,7 @@ class HomeFragment : Fragment() {
         dataInitialize()
         // val layoutManager = GridLayoutManager(context, 3)
         val layoutManager = StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL)
+        layoutManager.gapStrategy = StaggeredGridLayoutManager.GAP_HANDLING_NONE
         recyclerView = view.findViewById(R.id.recycler_view)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
@@ -97,6 +99,9 @@ class HomeFragment : Fragment() {
             R.drawable.image_7,
             R.drawable.image_8,
             R.drawable.image_9,
+            R.drawable.img_1977,
+            R.drawable.img_1986,
+            R.drawable.img_1985,
             R.drawable.image_10,
             R.drawable.image_11,
             R.drawable.image_12,
@@ -108,7 +113,10 @@ class HomeFragment : Fragment() {
             R.drawable.image_18,
             R.drawable.image_19,
             R.drawable.image_20,
-            R.drawable.image_1
+            R.drawable.image_1,
+            R.drawable.img_1965,
+            R.drawable.img_1969
+
 
 
         )

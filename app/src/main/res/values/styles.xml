@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuFontStyle">
+        <item name="android:fontFamily">@font/qwitchergrypen_regular</item>
+    </style>
+</resources>

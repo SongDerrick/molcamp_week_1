@@ -4,6 +4,7 @@ import android.app.appsearch.GlobalSearchSession
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -11,6 +12,7 @@ import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -59,12 +61,24 @@ class NotificationsFragment : Fragment() {
         val context = requireContext()
         notificationsViewModel = NotificationsViewModel(context)
 
+
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 //        val textView: TextView = binding.textNotifications
 //        notificationsViewModel.text.observe(viewLifecycleOwner) {
 //            textView.text = it
 //        }
+
+        // Find the refresh button by ID
+//        val btnRefresh: Button = root.findViewById(R.id.btn_refresh)
+//
+//        // Set the click listener for the refresh button
+//        btnRefresh.setOnClickListener {
+//            onRefreshClicked(root)
+
+
+//        }
+
         return root
 
     }
@@ -72,20 +86,25 @@ class NotificationsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        getCurrentData(view)
-        view.findViewById<RelativeLayout>(R.id.layout_generate_new_fact)?.setOnClickListener {
+        (requireActivity() as AppCompatActivity).supportActionBar?.hide()
+
+        // Find the refresh button by ID
+//        val btnRefresh: Button = view.findViewById(R.id.btn_refresh)
+
+        view.findViewById<RelativeLayout>(R.id.layout_generate_new_fact).setOnClickListener {
             getCurrentData(view)
         }
 
-        // Find the refresh button by ID
-        val btnRefresh: Button = view.findViewById(R.id.btn_refresh)
+        getCurrentData(view)
+
+
 
         // Set the click listener for the refresh button
-        btnRefresh.setOnClickListener {
-            onRefreshClicked(view)
-        }
+//        btnRefresh.setOnClickListener {
+//            onRefreshClicked(view)
+//        }
 
-        btnRefresh.visibility = View.INVISIBLE
+        // btnRefresh.visibility = View.VISIBLE
 
 //        layout_generate_new_fact.setOnClickListener {
 //            getCurrentData()
@@ -104,9 +123,9 @@ class NotificationsFragment : Fragment() {
     }
     private fun getCurrentData(view: View){
 
-        view?.findViewById<TextView>(R.id.tv_textView)?.visibility = View.INVISIBLE
-        view?.findViewById<TextView>(R.id.tv_timeStamp)?.visibility = View.INVISIBLE
-        view?.findViewById<ProgressBar>(R.id.progressBar)?.visibility = View.VISIBLE
+        view.findViewById<TextView>(R.id.tv_textView)?.visibility = View.INVISIBLE
+        view.findViewById<TextView>(R.id.tv_timeStamp)?.visibility = View.INVISIBLE
+        view.findViewById<ProgressBar>(R.id.progressBar)?.visibility = View.VISIBLE
 
         var api = Retrofit.Builder()
             .baseUrl(BASE_URL2)
@@ -121,15 +140,23 @@ class NotificationsFragment : Fragment() {
                 // ... Your existing code ...
                 if (response.isSuccessful) {
                     val thingJson = response.body()!!
+                    val delimiter = "[-–]"
 
                     val result = thingJson[0].result
+
                     val respond = thingJson[1].respond
+                    val part1 = respond.substringBeforeLast("–").trim()
+                    val part2 = respond.substringAfterLast("-").trim()
+
+                    val parts = respond.split(Regex(delimiter), 3).map { it.trim() }
+                    val part3 = if (parts.isNotEmpty()) parts[0] else ""
+                    val part4 = if (parts.size > 1) parts[1] else ""
 
                     view.findViewById<TextView>(R.id.tv_textView).visibility = View.VISIBLE
                     view.findViewById<TextView>(R.id.tv_timeStamp).visibility = View.VISIBLE
                     view.findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
-                    view.findViewById<TextView>(R.id.tv_textView).text = respond
-                    view.findViewById<TextView>(R.id.tv_timeStamp).text = result
+                    view.findViewById<TextView>(R.id.tv_textView).text = part3
+                    view.findViewById<TextView>(R.id.tv_timeStamp).text = part4
                     // Handle the successful response and update the UI
 
                 }
@@ -174,8 +201,20 @@ class NotificationsFragment : Fragment() {
 
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                // Handle the button click event here
+                startActivity(Intent(context, AnotherActivity::class.java))
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
+        (requireActivity() as AppCompatActivity).supportActionBar?.show()
         _binding = null
     }
 }

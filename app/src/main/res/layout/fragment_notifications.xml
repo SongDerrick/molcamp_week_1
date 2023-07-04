@@ -8,6 +8,7 @@
 
     <ProgressBar
         android:id="@+id/progressBar"
+        android:indeterminateTint="@color/orange"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,9 +23,11 @@
         android:layout_centerInParent="true"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
+        android:fontFamily ="@font/orbit_regular"
         tools:text="Sample cat fact" />
+
 
     <TextView
         android:id="@+id/tv_timeStamp"
@@ -33,27 +36,16 @@
         android:layout_below="@+id/tv_textView"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="12sp"
         android:textStyle="italic"
         tools:text="Author" />
 
-    <Button
-        android:id="@+id/btn_refresh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="false"
-        android:layout_marginTop="16dp"
-        android:gravity="clip_vertical"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv_timeStamp"
-        android:text="Refresh" />
-
     <RelativeLayout
         android:id="@+id/layout_generate_new_fact"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+    </RelativeLayout>
 
 
 </RelativeLayout>
