@@ -9,9 +9,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.DialogFragment
 import com.example.android_three_tab.databinding.BottomSheetBinding
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 
-class AddPhoneDialog(private val listener: AddPhoneDialogListener) : DialogFragment() {
+class AddPhoneDialog(private val listener: AddPhoneDialogListener) : BottomSheetDialogFragment() {
 
     private var _binding: BottomSheetBinding? = null
     private val binding get() = _binding!!
@@ -35,6 +36,7 @@ class AddPhoneDialog(private val listener: AddPhoneDialogListener) : DialogFragm
             val phone = binding.phonetext.text.toString()
 
             listener.onPhoneAdded(name, phone)
+            dismiss()
         }
 
         return view
