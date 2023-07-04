@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/rowName"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5sp"
         android:layout_marginLeft="12sp"
@@ -15,11 +15,20 @@
 
     <TextView
         android:id="@+id/rowPhone"
-        android:layout_width="wrap_content"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="5sp"
         android:textSize="20sp"
         android:text="010-7777-7777" />
+    <ImageButton
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_phone"
+        android:onClick="dismissBottomSheet"
+        />
+
 
 </LinearLayout>
