@@ -16,7 +16,6 @@
 - [Project Description](#project-description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgments)
 - [Contact](#contact)
@@ -34,7 +33,19 @@ Brief overview and descriptions of our project.
 
 First tab is My Contacts.<br>
 By clicking the purple floating button, you can add a new contact.<br>
-By clicking the gray phone button, you can directed to phone call with designated phone number.
+By clicking the gray phone button, you can directed to phone call with designated phone number.<br/>
+<br/>
+if we want to put initial data into application, we can modify 
+```
+    private val dataList = mutableListOf(
+        PhoneData("Jang", "010-1234-1234"),
+        PhoneData("Song", "010-1241-1313"),
+        PhoneData("LSLS", "010-1313-1313"),
+        PhoneData("SSSS", "010-4142-4224"),
+        PhoneData("ALSS", "010-1414-1414")
+    )
+```
+in java>ui>phone>Phonefragment.kt
 
 ### Tab 2 : 📑 Gallery             
 <img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570"> <img src="images/Screenshot_6.jpg" alt="Sc3" width="270" height="570"> <img src="images/Tab2.gif" alt="Sc4" width="270" height="570">
@@ -74,42 +85,35 @@ We can click 'ic_phone' to change our phone into calling page.
 
 <br/>Gallery<br/>
 
+in fragment_home.xml, we made recyclerview to show our gallery. and in activity_detailed.xml, we made detailed image view.
+We used StaggeredGridLayoutManager to make grid resized depending on component image's size.
 
+<br/>Wise Saying<br/>
 
-<Wise Saying>
+in fragment_notifications.xml we made Relativelayout that has progressbar and two textviews.we used api from https://api.qwer.pw/
+we parsed wise saying with dashbar, dividing the wise saying and the person who made it.
   
 ## Installation
 
-Nothing Special
+Nothing Special.<br/>
 Clone and Build project in Android Studio.
-```
-npm install
-```
-
-## Usage
-if we want to put initial data into application, we can modify 
-```
-    private val dataList = mutableListOf(
-        PhoneData("Jang", "010-1234-1234"),
-        PhoneData("Song", "010-1241-1313"),
-        PhoneData("LSLS", "010-1313-1313"),
-        PhoneData("SSSS", "010-4142-4224"),
-        PhoneData("ALSS", "010-1414-1414")
-    )
-```
-in java>ui>phone>Phonefragment.kt
-
-Provide examples or instructions on how to use your project. Include code snippets or screenshots if applicable. Explain any relevant details that users need to know to use your project effectively.
 
 ## Contributing
 
-Any bug reports or ideas are welcomed in issues tab.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+<br/>
+1.Fork the Project<br/>
+2.Create your Feature Branch (```git checkout -b feature/AmazingFeature```)<br/>
+3.Commit your Changes (```git commit -m 'Add some AmazingFeature'```)<br/>
+4.Push to the Branch (```git push origin feature/AmazingFeature```)<br/>
+5.Open a Pull Request<br/>
 
 ## Acknowledgments
 
-picasso
-
-https://api.qwer.pw/
+<https://api.qwer.pw/> <br/>
+<https://developer.android.com/docs?hl=ko> <br/>
 
 
 ## Contact
