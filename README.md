@@ -1,10 +1,14 @@
-# android_three_tab
+# molcamp_week_1
 
-Kotlin based Android application project that is composed of three tabs.
-Each tab have specific functions.
-- first tab : Contacts
-- second tab : Gallery
-- third tab : Wise Sayings Generator(Kor)
+> 👍 서로 함께 공통의 과제를 함으로써, 개발에 빠르게 익숙해지기
+>
+> To become familiar with development by working on a common assignment together.
+
+## Target Output -> :computer: Android Application Development by Kotlin
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
+- [x] Building My Contacts.
+- [x] Building My Image Gallery.
+- [x] Free topic. In our case, Wise Sayings Generator(Kor).
 
 
 ## Table of Contents
@@ -18,15 +22,14 @@ Each tab have specific functions.
 
 ## Project Description
 
-Brief overview and screen shots of our project.
+Brief overview and descriptions of our project.
 
 | Loading Page                 |
 | ---------------------------- |
 |<img src="images/Screenshot_1.jpg" alt="Sc1" width="270" height="570">|
 
-| Contacts                   |
-| ---------------------------- |
-|<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570">|
+### Tab 1 : Contacts
+<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570">
 
 | Gallery                 | 
 | ---------------------------- |
