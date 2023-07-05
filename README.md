@@ -123,8 +123,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
 
-Doyoon Song(sd990307@gm.gist.ac.kr)[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)<br/>
-Dongwoo Jang(peter010617@gmail.com)<br/>
+Doyoon Song, GIST 18 (sd990307@gm.gist.ac.kr)[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)<br/>
+Dongwoo Jang, Hanyang Univ 19 (peter010617@gmail.com)<br/>
 
 
 
