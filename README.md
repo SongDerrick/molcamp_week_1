@@ -14,10 +14,13 @@ Download our demo apk here ->
 [download APK](https://drive.google.com/file/d/1h7dVyx5X3itwq6C6Bf_071fLmV-kykjV/view?usp=sharing)
 <br/>
 ## 🙆 Members
-|팀원|소속|github ID|
+|Name|Education|github ID|
 |:---|:---|:---|
 |송도윤|GIST 전기전자컴퓨터공학부|[SongDerrick](https://github.com/SongDerrick/)|
 |장동우|한양대학교 컴퓨터소프트웨어학부|[jjangddu](https://github.com/jjangddu/)|
+
+please vist my blog haha 😄 -> [도윤송의 블로그](https://doyoonsong.vercel.app), [동우의 블로그](https://blog.naver.com/peterjdw)
+<br/>
 
 
 
