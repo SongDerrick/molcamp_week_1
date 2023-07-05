@@ -4,7 +4,7 @@
 >
 > To become familiar with development by working on a common assignment together.
 
-## 💻 Target Output -> :computer: Android Application Development by Kotlin
+## 💻 Target Output -> Android Application Development by Kotlin
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
 - [x] Building My Contacts.
 - [x] Building My Image Gallery.
@@ -17,8 +17,9 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-
+- [Acknowledgements](#acknowledgments)
+- [Contact](#contact)
+  
 ## Project Description
 
 Brief overview and descriptions of our project.
@@ -37,6 +38,10 @@ By clicking the gray phone button, you can directed to phone call with designate
 ### Tab 2 : 📑 Gallery             
 <img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570"> <img src="images/Screenshot_6.jpg" alt="Sc3" width="270" height="570"> <img src="images/Tab2.gif" alt="Sc4" width="270" height="570">
 
+Second tab is My Gallery.<br>
+It has layout of staggered grid layout. Even with different size images, each images are not distorted but rather shown in aspect ratio.<br>
+You also have access to each images by clicking them, you can zoom out and zoom in by multi-touch pinching motion.<br>
+Also, with external storage access granted you can download each images by clicking download button.
 
 ### Tab 3 : 👅 Wise Sayings Generator                   
 <img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570"> <img src="images/Tab3.gif" alt="Sc4" width="270" height="570">
