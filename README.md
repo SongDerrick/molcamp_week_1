@@ -13,14 +13,11 @@
 Download our demo apk here -> 
 [download APK](https://drive.google.com/file/d/1h7dVyx5X3itwq6C6Bf_071fLmV-kykjV/view?usp=sharing)
 <br/>
-## Contact
+## 🙆 Members
 |팀원|소속|github ID|
 |:---|:---|:---|
-|송도윤|GIST 전기전자컴퓨터공학부|SongDerrick|
-|장동우|한양대학교 컴퓨터소프트웨어학부|jjangddu|
-<br/>
-Doyoon Song, GIST 18 (sd990307@gm.gist.ac.kr)[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)<br/>
-Dongwoo Jang, Hanyang Univ 19 (peter010617@gmail.com)<br/>
+|송도윤|GIST 전기전자컴퓨터공학부|[SongDerrick](https://github.com/SongDerrick/)|
+|장동우|한양대학교 컴퓨터소프트웨어학부|[jjangddu](https://github.com/jjangddu/)|
 
 
 
@@ -31,7 +28,6 @@ Dongwoo Jang, Hanyang Univ 19 (peter010617@gmail.com)<br/>
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgments)
-- [Contact](#contact)
   
 ## Project Description
 
