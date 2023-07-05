@@ -18,7 +18,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 
@@ -31,13 +30,11 @@ Brief overview and descriptions of our project.
 ### Tab 1 : Contacts
 <img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570"> <img src="images/Screenshot_5.jpg" alt="Sc5" width="270" height="570"> <img src="images/Tab1.gif" alt="Sc4" width="270" height="570">
 
-
-
-### Gallery             
+### Tab 2 : Gallery             
 <img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570"> <img src="images/Screenshot_6.jpg" alt="Sc3" width="270" height="570"> <img src="images/Tab2.gif" alt="Sc4" width="270" height="570">
 
 
-### Wise Sayings Generator                   
+### Tab 3 : Wise Sayings Generator                   
 <img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570"> <img src="images/Tab3.gif" alt="Sc4" width="270" height="570">
 
 everytime the screen is clicked new wise sayings are generated from APIs from https://api.qwer.pw/.
@@ -82,16 +79,13 @@ Provide examples or instructions on how to use your project. Include code snippe
 
 Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests. Specify any coding styles, conventions, or standards that contributors should follow.
 
-## License
-
-Specify the license under which your project is distributed. Provide a link to the license file if applicable.
-
 ## Acknowledgments
 
 If your project builds upon or uses external resources or libraries, acknowledge and give credit to those sources here.
 
 ## Contact
 
-Provide contact information for users to reach out to you with questions, feedback, or support inquiries.
+Doyoon Song(sd990307@gm.gist.ac.kr)
+[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)
 
 
