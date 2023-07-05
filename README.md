@@ -86,7 +86,10 @@ We can click 'ic_phone' to change our phone into calling page.
 <br/>Gallery<br/>
 
 in fragment_home.xml, we made recyclerview to show our gallery. and in activity_detailed.xml, we made detailed image view.
-We used StaggeredGridLayoutManager to make grid resized depending on component image's size.
+We used StaggeredGridLayoutManager to make grid resized depending on component image's size.<br/>
+<img width="181" alt="image" src="https://github.com/SongDerrick/molcamp_week_1/assets/55375379/bfba0a94-e11b-432e-802c-12662aa9d9c9"><br/>
+this is the detailed image view of our application.
+
 
 <br/>Wise Saying<br/>
 
