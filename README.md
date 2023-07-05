@@ -75,7 +75,7 @@ npm install
 
 ## Usage
 if we want to put initial data into application, we can modify 
-'''
+```
     private val dataList = mutableListOf(
         PhoneData("Jang", "010-1234-1234"),
         PhoneData("Song", "010-1241-1313"),
@@ -83,7 +83,7 @@ if we want to put initial data into application, we can modify
         PhoneData("SSSS", "010-4142-4224"),
         PhoneData("ALSS", "010-1414-1414")
     )
-'''
+```
 in java>ui>phone>Phonefragment.kt
 
 Provide examples or instructions on how to use your project. Include code snippets or screenshots if applicable. Explain any relevant details that users need to know to use your project effectively.
