@@ -17,6 +17,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgments)
 - [Contact](#contact)
   
@@ -46,7 +47,10 @@ Also, with external storage access granted you can download each images by click
 ### Tab 3 : 👅 Wise Sayings Generator                   
 <img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570"> <img src="images/Tab3.gif" alt="Sc4" width="270" height="570">
 
-everytime the screen is clicked new wise sayings are generated from APIs from https://api.qwer.pw/.
+Final tab is Wise Sayings Generator.<br>
+Everytime the screen is clicked new wise sayings are generated from APIs from https://api.qwer.pw/.<br>
+However, response from the APIs were in JSON format, and actual sayings and the person who said it were all contained in single string.<br>
+Therefore, we had to parse them to use as adequate output.
 
 
 ## Features
@@ -99,7 +103,7 @@ Provide examples or instructions on how to use your project. Include code snippe
 
 ## Contributing
 
-Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests. Specify any coding styles, conventions, or standards that contributors should follow.
+Any bug reports or ideas are welcomed in issues tab.
 
 ## Acknowledgments
 
