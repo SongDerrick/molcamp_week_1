@@ -1,17 +1,17 @@
-# molcamp_week_1
+# :bulb: molcamp_week_1
 
 > 👍 서로 함께 공통의 과제를 함으로써, 개발에 빠르게 익숙해지기
 >
 > To become familiar with development by working on a common assignment together.
 
-## Target Output -> :computer: Android Application Development by Kotlin
+## 💻 Target Output -> :computer: Android Application Development by Kotlin
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
 - [x] Building My Contacts.
 - [x] Building My Image Gallery.
 - [x] Free topic. In our case, Wise Sayings Generator(Kor).
 
 
-## Table of Contents
+## 📖 Table of Contents
 
 - [Project Description](#project-description)
 - [Features](#features)
@@ -23,18 +23,22 @@
 
 Brief overview and descriptions of our project.
 
-| Loading Page                 |
-| ---------------------------- |
+### Loading Page             
+
 |<img src="images/Screenshot_1.jpg" alt="Sc1" width="270" height="570">|
 
-### Tab 1 : Contacts
+### Tab 1 : ☎️ Contacts
 <img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570"> <img src="images/Screenshot_5.jpg" alt="Sc5" width="270" height="570"> <img src="images/Tab1.gif" alt="Sc4" width="270" height="570">
 
-### Tab 2 : Gallery             
+First tab is My Contacts.<br>
+By clicking the purple floating button, you can add a new contact.<br>
+By clicking the gray phone button, you can directed to phone call with designated phone number.
+
+### Tab 2 : 📑 Gallery             
 <img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570"> <img src="images/Screenshot_6.jpg" alt="Sc3" width="270" height="570"> <img src="images/Tab2.gif" alt="Sc4" width="270" height="570">
 
 
-### Tab 3 : Wise Sayings Generator                   
+### Tab 3 : 👅 Wise Sayings Generator                   
 <img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570"> <img src="images/Tab3.gif" alt="Sc4" width="270" height="570">
 
 everytime the screen is clicked new wise sayings are generated from APIs from https://api.qwer.pw/.
@@ -94,13 +98,15 @@ Explain how others can contribute to your project. Include guidelines for submit
 
 ## Acknowledgments
 
-If your project builds upon or uses external resources or libraries, acknowledge and give credit to those sources here.
 picasso
+
+https://api.qwer.pw/
+
 
 ## Contact
 
-Doyoon Song(sd990307@gm.gist.ac.kr)<br/>
+Doyoon Song(sd990307@gm.gist.ac.kr)[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)<br/>
 Dongwoo Jang(peter010617@gmail.com)<br/>
-[https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)
+
 
 
