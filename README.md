@@ -99,8 +99,8 @@ picasso
 
 ## Contact
 
-Doyoon Song(sd990307@gm.gist.ac.kr)
-Dongwoo Jang(peter010617@gmail.com)
+Doyoon Song(sd990307@gm.gist.ac.kr)<br/>
+Dongwoo Jang(peter010617@gmail.com)<br/>
 [https://doyoonsong.vercel.app](https://doyoonsong.vercel.app/)
 
 
