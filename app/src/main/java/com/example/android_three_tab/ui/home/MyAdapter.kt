@@ -29,14 +29,14 @@ class MyAdapter(private val imageList : ArrayList<Gallery>) :
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,
             parent, false
         )
         return MyViewHolder(itemView, mListener)
     }
 
-    override fun onBindViewHolder(holder: MyAdapter.MyViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem = imageList[position]
         val context = holder.itemView.context
 
