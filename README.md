@@ -42,22 +42,24 @@ everytime the screen is clicked new wise sayings are generated from APIs from ht
 
 ## Features
 
-<Main Activity>
+<br/>Main Activity<br/>
 We used navgationcontroller to make three tabs in bottom. It is 'Phone, gallery, Wise Saying'
 
-<Phone>
+<br/>Phone<br/>
 We used Relativelayout to put floating action button and recyclerview in one page.
 In recyclerview, we put phonedata having 'name' and 'phoneNum'. 
+<br/>
 <img width="178" alt="image" src="https://github.com/SongDerrick/android_three_tab/assets/55375379/6c95836d-4c93-4cc5-b37f-99c82024cb43">
+<br/>
 one item of recyclerview is like this.
 
 and if We push FAB(Floating Action Button), the bottom sheet appears to add contact.
-<img width="177" alt="image" src="https://github.com/SongDerrick/android_three_tab/assets/55375379/59ea947d-9f46-4fa2-87c3-2eae30d3fcad">
-This is a capture of bottom sheet. 
-
+<br/>
+<img width="177" alt="image" src="https://github.com/SongDerrick/android_three_tab/assets/55375379/59ea947d-9f46-4fa2-87c3-2eae30d3fcad"><br/>
+This is a capture of bottom sheet. <br/>
 We can click 'ic_phone' to change our phone into calling page.
 
-<Gallery>
+<br/>Gallery<br/>
 
 
 
