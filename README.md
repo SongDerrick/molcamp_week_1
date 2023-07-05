@@ -29,19 +29,16 @@ Brief overview and descriptions of our project.
 |<img src="images/Screenshot_1.jpg" alt="Sc1" width="270" height="570">|
 
 ### Tab 1 : Contacts
-<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570">
+<img src="images/Screenshot_2.jpg" alt="Sc2" width="270" height="570"> <img src="images/Screenshot_5.jpg" alt="Sc5" width="270" height="570"> <img src="images/Tab1.gif" alt="Sc4" width="270" height="570">
 
-| Gallery                 | 
-| ---------------------------- |
-|<img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570">|
 
-|Wise Sayings Generator                   |
-| ---------------------------- |
-|<img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570">|
 
-| Gif of Wise Sayings Generator                 |
-| ---------------------------- |
-|<img src="images/Tab3.gif" alt="Sc4" width="270" height="570">|
+### Gallery             
+<img src="images/Screenshot_3.jpg" alt="Sc3" width="270" height="570"> <img src="images/Screenshot_6.jpg" alt="Sc3" width="270" height="570"> <img src="images/Tab2.gif" alt="Sc4" width="270" height="570">
+
+
+### Wise Sayings Generator                   
+<img src="images/Screenshot_4.jpg" alt="Sc4" width="270" height="570"> <img src="images/Tab3.gif" alt="Sc4" width="270" height="570">
 
 everytime the screen is clicked new wise sayings are generated from APIs from https://api.qwer.pw/.
 
